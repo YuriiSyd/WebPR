@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Js collection</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/lrjs.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet"> 
+</head>
+<body>
+	<div class="grid">
+		<div class="grid-item">
+			<form action="#" method="get">
+				<!-- Converter -->
+				<label>Converter</label><br>
+				<h5>Enter count of Quarts </h5>
+				<input type="text" id="quarts"><br>
+				<button onclick="convert()">convert</button><br>
+				<h5 id="liters">Liters:</h5> 
+			</form>
+		</div>
+		<div class="grid-item">
+			<form action="#" method="get">
+				<label>Time to study break</label><br>
+				
+				<label>Enter start time</label>
+				<input type="time"  id="startTime" value="22:00"><br>
+
+				<label>Enter end time</label>
+				<input  type="time" id="endTime" value="22:00"> <br>
+				
+				<button onclick="timeToEnd()">compute</button> 	 
+				<h5 id="resultTime">Time to end in minutes: </h5>
+			</form>
+		</div>
+		<div class="grid-item">
+			<a href="../index.html">
+				<h1>Back</h1>
+			</a>
+		</div>
+	</div>
+	<script type="text/javascript" src="scripts/converter.js"></script>
+	<script type="text/javascript" src="scripts/lr13.js"></script>
+</body>
